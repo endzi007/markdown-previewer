@@ -1,5 +1,27 @@
 $primaryColor: orange;
+@mixin handleScreen($screenSize){
+    @if $screenSize == "small" {
+        @media screen and (min-width: 480px){
+            @content;
+        }
+    } @else if $screenSize == "normal"{
+        @media screen and (min-width: 768px){
+            @content;
+        }
+    }
+}
 
-.component{
+#root{
+    display: grid;
+    grid-template-columns: repeat(1fr, 8);
     color: $primaryColor;
+    min-height: 500px;
+    background: red;
+}
+.markdown {
+    border: 1px solid $primaryColor;
+}
+
+.textbox{
+    border: 1px solid $primaryColor;
 }
