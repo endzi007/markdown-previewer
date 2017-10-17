@@ -11,17 +11,46 @@ $primaryColor: orange;
     }
 }
 
-#root{
-    display: grid;
-    grid-template-columns: repeat(1fr, 8);
+.container{
+    display: grid; 
     color: $primaryColor;
     min-height: 500px;
-    background: red;
+    width: 80vw;
+    margin-left: 10vw;
+    box-shadow: 0 0 5px black;
 }
-.markdown {
+.page{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
     border: 1px solid $primaryColor;
+    min-height: 400px;
+    grid-row: 2 / 2;
 }
+.textboxContainer{
+    display: grid; 
+    grid-template-columns: 1fr;
+    border: 1px solid $primaryColor;
 
-.textbox{
-    border: 1px solid $primaryColor;
+    grid-template-rows: 30px auto; 
+    padding: 10px;
+    textarea{
+        grid-row: 2 / 2; 
+        border: 1px solid gray;
+        border-radius: 5px;
+        resize: none;
+    }
+    p{
+        grid-row: 1 / 1; 
+        padding: 0;
+        margin: 0;
+    }
+}
+.header{
+    min-height: 100px;
+    border: 1px solid white;
+    grid-row: 1 / 1;
+}
+.footer{
+    text-align: center;
+    grid-row: 3 / 3;
 }

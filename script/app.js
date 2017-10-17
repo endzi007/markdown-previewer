@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {MarkdownComponent} from './components/markdownComponent';
-import TextboxComponent from './components/textboxComponent';
+import Page from './components/page';
+import Header from './components/header';
+import Footer from './components/footer';
 require('../styles/main.scss');
 
 ReactDOM.render(
-    <div>
-        <h1>Hello from react </h1>
-        <TextboxComponent title="optionalTitle" />
-        <MarkdownComponent title ="markdown title"/>
+    <div className="container">
+        <Header />
+        <Page />
+        <Footer />
     </div>,
 
 document.getElementById("root"));
