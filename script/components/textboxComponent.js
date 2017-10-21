@@ -8,8 +8,8 @@ class TextboxComponent extends React.Component{
     render() {
         return (
             <div className="textbox textboxContainer">
-                <p>Paste or type here:</p>
-                <textarea onChange = {this.handleChange.bind(this)} name="codeInput" id="codeInput" cols="30" rows="10">__enis__</textarea>
+                <p>Type here:</p>
+                <textarea onChange = {this.handleChange.bind(this)} name="codeInput" id="codeInput" cols="30" rows="10"></textarea>
             </div>
         );
     }

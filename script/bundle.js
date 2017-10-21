@@ -26734,13 +26734,9 @@ var TextboxComponent = function (_React$Component) {
                 _react2.default.createElement(
                     "p",
                     null,
-                    "Paste or type here:"
+                    "Type here:"
                 ),
-                _react2.default.createElement(
-                    "textarea",
-                    { onChange: this.handleChange.bind(this), name: "codeInput", id: "codeInput", cols: "30", rows: "10" },
-                    "__enis__"
-                )
+                _react2.default.createElement("textarea", { onChange: this.handleChange.bind(this), name: "codeInput", id: "codeInput", cols: "30", rows: "10" })
             );
         }
     }]);
@@ -26790,7 +26786,11 @@ var Header = function (_React$Component) {
             return _react2.default.createElement(
                 "div",
                 { className: "header" },
-                "Header"
+                _react2.default.createElement(
+                    "h1",
+                    null,
+                    "Markdown Previewer"
+                )
             );
         }
     }]);
@@ -26892,10 +26892,10 @@ if(false) {
 
 exports = module.exports = __webpack_require__(69)(undefined);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto);", ""]);
 
 // module
-exports.push([module.i, ".container {\n  display: grid;\n  color: orange;\n  min-height: 500px;\n  width: 80vw;\n  margin-left: 10vw;\n  box-shadow: 0 0 5px black; }\n\n.page {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  border: 1px solid orange;\n  min-height: 400px;\n  grid-row: 2 / 2; }\n\n.textboxContainer {\n  display: grid;\n  grid-template-columns: 1fr;\n  border: 1px solid orange;\n  grid-template-rows: 30px auto;\n  padding: 10px; }\n  .textboxContainer textarea {\n    grid-row: 2 / 2;\n    border: 1px solid gray;\n    border-radius: 5px;\n    resize: none; }\n  .textboxContainer p {\n    grid-row: 1 / 1;\n    padding: 0;\n    margin: 0; }\n\n.header {\n  min-height: 100px;\n  border: 1px solid white;\n  grid-row: 1 / 1; }\n\n.footer {\n  text-align: center;\n  grid-row: 3 / 3; }\n", ""]);
+exports.push([module.i, ".container {\n  font-family: 'Roboto', sans-serif;\n  font-weight: light 300;\n  display: grid;\n  color: black;\n  min-height: 500px;\n  width: 80vw;\n  margin-left: 10vw; }\n\n.page {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  min-height: 400px;\n  grid-row: 2 / 2; }\n\n.textboxContainer {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 30px auto;\n  padding: 10px; }\n  .textboxContainer textarea {\n    grid-row: 2 / 2;\n    border: 1px solid gray;\n    border-radius: 5px;\n    resize: none; }\n  .textboxContainer p {\n    grid-row: 1 / 1;\n    padding: 0;\n    margin: 0; }\n\n.header {\n  min-height: 50px;\n  grid-row: 1 / 1;\n  text-align: center;\n  vertical-align: middle; }\n\n.footer {\n  text-align: center;\n  grid-row: 3 / 3; }\n  .footer a {\n    text-decoration: none;\n    font-style: italic;\n    color: #111111;\n    font-weight: bold; }\n    .footer a:hover {\n      text-decoration: underline; }\n\n.jsx-parser {\n  padding: 10px;\n  background-color: rgba(216, 216, 216, 0.356);\n  border-radius: 10px; }\n", ""]);
 
 // exports
 
