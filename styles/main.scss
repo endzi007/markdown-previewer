@@ -36,6 +36,7 @@ $primaryColor: orange;
         border: 1px solid gray;
         border-radius: 5px;
         resize: none;
+        padding: 10px;
     }
     p{
         grid-row: 1 / 1; 
@@ -51,6 +52,7 @@ $primaryColor: orange;
 }
 .footer{
     text-align: center;
+    padding-top: 20px;
     grid-row: 3 / 3;
     a {
         text-decoration: none;
@@ -67,4 +69,7 @@ $primaryColor: orange;
     background-color: rgba(216, 216, 216, 0.356);
     border-radius: 10px;
 
+}
+#fcc{
+    color: green;
 }

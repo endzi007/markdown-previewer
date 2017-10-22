@@ -26845,7 +26845,14 @@ var Footer = function (_React$Component) {
                     "a",
                     { href: "https://codepen.io/endzi007/" },
                     "endzi 007"
-                )
+                ),
+                "-as a",
+                _react2.default.createElement(
+                    "a",
+                    { id: "fcc", href: "https://www.freecodecamp.org" },
+                    "Free Code Camp"
+                ),
+                " project"
             );
         }
     }]);
@@ -26895,7 +26902,7 @@ exports = module.exports = __webpack_require__(69)(undefined);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto);", ""]);
 
 // module
-exports.push([module.i, ".container {\n  font-family: 'Roboto', sans-serif;\n  font-weight: light 300;\n  display: grid;\n  color: black;\n  min-height: 500px;\n  width: 80vw;\n  margin-left: 10vw; }\n\n.page {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  min-height: 400px;\n  grid-row: 2 / 2; }\n\n.textboxContainer {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 30px auto;\n  padding: 10px; }\n  .textboxContainer textarea {\n    grid-row: 2 / 2;\n    border: 1px solid gray;\n    border-radius: 5px;\n    resize: none; }\n  .textboxContainer p {\n    grid-row: 1 / 1;\n    padding: 0;\n    margin: 0; }\n\n.header {\n  min-height: 50px;\n  grid-row: 1 / 1;\n  text-align: center;\n  vertical-align: middle; }\n\n.footer {\n  text-align: center;\n  grid-row: 3 / 3; }\n  .footer a {\n    text-decoration: none;\n    font-style: italic;\n    color: #111111;\n    font-weight: bold; }\n    .footer a:hover {\n      text-decoration: underline; }\n\n.jsx-parser {\n  padding: 10px;\n  background-color: rgba(216, 216, 216, 0.356);\n  border-radius: 10px; }\n", ""]);
+exports.push([module.i, ".container {\n  font-family: 'Roboto', sans-serif;\n  font-weight: light 300;\n  display: grid;\n  color: black;\n  min-height: 500px;\n  width: 80vw;\n  margin-left: 10vw; }\n\n.page {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  min-height: 400px;\n  grid-row: 2 / 2; }\n\n.textboxContainer {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 30px auto;\n  padding: 10px; }\n  .textboxContainer textarea {\n    grid-row: 2 / 2;\n    border: 1px solid gray;\n    border-radius: 5px;\n    resize: none;\n    padding: 10px; }\n  .textboxContainer p {\n    grid-row: 1 / 1;\n    padding: 0;\n    margin: 0; }\n\n.header {\n  min-height: 50px;\n  grid-row: 1 / 1;\n  text-align: center;\n  vertical-align: middle; }\n\n.footer {\n  text-align: center;\n  padding-top: 20px;\n  grid-row: 3 / 3; }\n  .footer a {\n    text-decoration: none;\n    font-style: italic;\n    color: #111111;\n    font-weight: bold; }\n    .footer a:hover {\n      text-decoration: underline; }\n\n.jsx-parser {\n  padding: 10px;\n  background-color: rgba(216, 216, 216, 0.356);\n  border-radius: 10px; }\n\n#fcc {\n  color: green; }\n", ""]);
 
 // exports
 
